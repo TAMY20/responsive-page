@@ -1,0 +1,587 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/* Global css here*/
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+  
+   width: 25%;
+   float: left;
+
+}
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+.col-lg-9{
+  
+   width: 75%;
+   float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+
+
+/* Global css end*/
+
+.header{
+	width: 100%;
+	float: left;
+	padding: 12px 0px;
+	border: 1px solid #777;
+}
+.logo{
+	width: 110px;
+	display: block;
+
+	
+}
+.logo img{
+	width: 100%;
+	
+}
+
+.header .navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a{
+	display: block;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #777;
+	font-weight: 600;
+	margin: 22px 0px 0px 25px;
+	transition: 1s;
+	
+}
+
+.header .navbar li a:hover, .header .navbar li a:focus{
+	color: #1B70FF;
+
+}
+/*online - secto=ion start*/
+
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.inner-online{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.inner-online .banner-img{
+	width: 50%;
+}
+.inner-online h1{
+	font-size: 56px;
+	line-height: 1.4em;
+	font-weight: 700;
+	color: #3f3d56;
+	margin: 0px 0px 15px;
+}
+.inner-online h1 span{
+	color: #1B70FF;
+}
+.inner-online p{
+    font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 0px 15px;
+}
+
+.successfull-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 60px;
+}
+.inner-left{
+	width: 100%;
+	text-align: right;
+	float: left;
+
+}
+.inner-left h2{
+	font-size: 56px;
+	line-height: 66px;
+	font-weight: 700px;
+	color: #FA5A49;
+	margin: 0px 20px 0px 0px;
+
+}
+.inner-left p{
+	 font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 20px 0px 0px;
+	
+}
+.project{
+	font-size: 56px;
+	line-height: 66px;
+	font-weight: 700px;
+	color: #3f3d56;
+	margin: 0px 0px 0px 20px; 
+}
+/*online - secto=ion end*/
+/*footer*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	text-align: center;
+	background: #1B70FF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	color: #f0f0f0;
+
+}
+.footer p a{
+	color: #fff;
+	font-weight: 700px;
+	letter-spacing: 3px;
+
+}
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+
+}
+.inner-feature{
+   width: 80%;
+   float: left;
+   padding: 40px 30px; 
+   margin: 0px 10px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+}
+.inner-feature h4{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #3f3D56;
+	margin: 10px 0px;
+
+}
+.inner-feature p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+
+}
+.cl1{
+
+	background: #ECDCDF;
+}
+.cl2{
+
+	background: #EBF9F4;
+
+}
+.cl3{
+	
+	background: #FFF7ED;
+
+}
+
+/* css media query code start */
+
+/* low resulation mobiled= devices */
+
+@media ( min-width: 279px) and ( max-width: 319px) {
+
+	/*css code start*/
+	.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+  
+   width: 100%;
+   float: left;
+
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+  
+   width: 100%;
+   float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+.header {
+	padding: 20px 0px;
+}
+.header .logo {
+    width: 100%;
+   
+    text-align: center;
+}
+.logo img{
+	width: 100px;
+}
+.header .navbar {
+   
+    text-align: left;
+
+}
+.header .navbar li a {
+	font-size: 10px;
+	margin: 0px 0px 0px 10px;
+
+}
+.online-section {
+	padding: 30px 0px;
+}
+.inner-online h1{
+	font-size: 24px;
+	line-height: 34px;
+}
+.inner-online p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.inner-online .banner-img{
+	width: 90%;
+}
+.inner-left h2{
+	font-size: 45px;
+	text-align: center;
+}
+.inner-left p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.inner-feature{
+
+	margin: 5px 0px 10px 0px;
+}
+.inner-feature img{
+	width: 95%;
+}
+.inner-feature p{
+	font-size: 12px;
+	line-height: 22px;
+}
+.project {
+    font-size: 38px;
+    line-height: 48px;
+    margin: 10px 0px 0px 5px;
+}
+
+	
+	/*css code end*/
+}
+
+/* maximum mobile device resulation 320px-480px */
+
+@media (min-width: 320px) and ( max-width: 480px){
+	/*css code start*/
+	.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+  
+   width: 100%;
+   float: left;
+
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+  
+   width: 100%;
+   float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+.header .logo {
+    width: 100%;
+   
+    text-align: center;
+}
+.logo img{
+	width: 130px;
+}
+.header .navbar {
+   
+    text-align: left;
+
+}
+.header .navbar li a {
+	font-size: 12px;
+	margin: 0px 0px 0px 15px;
+
+}
+.online-section {
+	padding: 30px 0px;
+}
+.inner-online h1{
+	font-size: 28px;
+	line-height: 38px;
+}
+.inner-online p{
+	font-size: 16px;
+	line-height: 26px;
+}
+.inner-online .banner-img{
+	width: 80%;
+}
+.inner-feature{
+	margin: 0px 0px 15px;
+}
+.project {
+    font-size: 48px;
+    line-height: 58px;
+    margin: 10px 0px 0px 20px;
+}
+	/*css code end*/
+
+}
+
+/* mobile device and low resulations tab*/
+@media (min-width: 481px) and ( max-width: 767px){
+	/*css code start*/
+	/*css code start*/
+	.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+  
+   width: 100%;
+   float: left;
+
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+  
+   width: 100%;
+   float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+.header .logo {
+    width: 100%;
+   
+    text-align: center;
+}
+.logo img{
+	width: 160px;
+}
+.header .navbar {
+   
+    text-align: center;
+
+}
+.header .navbar li a {
+	font-size: 15px;
+	margin: 0px 0px 0px 15px;
+
+}
+.project {
+    font-size: 48px;
+    line-height: 58px;
+    margin: 10px 0px 0px 20px;
+}
+.inner-feature{
+
+	margin: 5px 0px 10px 20px;
+}
+	/*css code end*/
+
+}
+	
+
+	
+
+/* tablet and mini notebook*/
+@media (min-width: 768px) and ( max-width: 1024px){
+	/*css code start*/
+.container{
+	width: 90%;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+  
+   width: 100%;
+   float: left;
+
+}
+.col-lg-4{
+	width: 100%;
+	float: left;
+}
+.col-lg-6{
+	width: 100%;
+	float: left;
+}
+.col-lg-9{
+  
+   width: 100%;
+   float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+.header .logo {
+    width: 100%;
+   
+    text-align: center;
+}
+
+.logo img {
+    width: 180px;
+}
+.header .navbar {
+   
+    text-align: center;
+
+}
+.header .navbar li a {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 0px 0px 40px;
+}
+
+.online-section {
+	padding: 30px 0px;
+}
+.inner-online h1{
+	font-size: 32px;
+	line-height: 40px;
+}
+.inner-online p{
+	font-size: 20px;
+	line-height: 30px;
+}
+.inner-online .banner-img{
+	width: 70%;
+}
+.inner-feature{
+
+	margin: 5px 0px 10px 50px;
+}
+.inner-left h2{
+	text-align: center;
+}
+.inner-left p{
+	font-size: 20px;
+	line-height: 30px;
+    margin: 10px 20px 10px 0px;
+}
+.inner-feature img {
+    width: 90%;
+    height: 180px;
+}
+.inner-feature h4{
+	font-size: 24px;
+}
+.inner-feature p {
+	font-size: 20px;
+	line-height: 30px;
+}
+.project {
+    font-size: 54px;
+    line-height: 64px;
+    margin: 10px 0px 0px 20px;
+    text-align: center;
+}
+.footer p {
+	font-size: 18px;
+	/*css code end*/
+}
+
+}
+
+	
+
+
+
